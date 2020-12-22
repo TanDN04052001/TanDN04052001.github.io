@@ -1,0 +1,206 @@
+*{
+	margin:0;
+	padding:0;
+}
+.search{
+	padding-top:84px;
+}
+.logo{
+	padding-top:52px;
+}
+.item-1{
+	justify-content:center;
+	padding-bottom:27px;
+}
+.item-a{
+	color:#000;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	border:2px;
+}
+.item-a:hover{
+	color:#8ed1b7;
+	text-decoration:underline;
+}
+.icon{
+	padding-top:62px;
+	padding-bottom:136px;
+
+}
+.asw{
+	padding-right:0;
+	padding-left:129px;
+}
+.item-b{
+	color:#000;
+}
+.icon-shopping{
+	height:24px;
+	width:32px;
+	position: relative;
+}
+.shopping{
+	position: absolute;
+	top:3px;
+	bottom:9px;
+	left:22px;
+	width:15px;
+	height:15px;
+	background:#000;
+	color:#fff;
+	border-radius:9px;
+}
+/* end header */
+/* start section top head */
+ 
+ .imgl{
+	background-size: cover;
+	width:100%;
+	height:600px;
+ }
+.background-x{
+	position:relative;
+	inline:block;
+}
+.text-content{
+	padding:192px 0;
+	position:absolute;
+	left:480px;
+	bottom:0;
+}
+.text-top-head{
+	padding-top:176px;
+	font-family: 'Alex Brush', cursive;
+	font-size:4.56rem;
+	font-weight:400;
+	color:#fff;
+}
+.text-top{
+	font-family: 'Roboto', sans-serif;
+	padding-left:18px;
+	font-size:1.43rem;
+	font-weight:100;
+}
+.carousel-inner{
+	background:center;
+}
+
+.text-center-head{
+	font-size:4.5rem;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:400;
+	color:#fff;
+}
+.text-center{
+	font-size:1.5rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	color:#fff;
+}
+.text-bottom{
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	text-decoration:underline;
+	padding-bottom:192px;
+	color:#fff;
+}
+.ion{
+	color:#f0f;
+}
+
+}
+/* start section top head */
+
+
+/* start footer */
+.ion-a{
+	padding-top:10px;
+	padding-right:20px;
+}
+.seach-a{
+	padding-top:62px;
+}
+.product {
+	padding-top:50px;
+}
+.icon-img{
+	padding-top:25px;
+}
+.icon-img-a{
+	padding-top:35px;
+}
+.bg{
+	background:#e5d6e53b;
+}
+.tour{
+	text-decoration: line-through;
+	padding-left:35px;
+	color:#ee0021;
+}
+.text-sp{
+	
+	font-family: 'Titillium Web', sans-serif;
+	font-size:1.37rem;
+	padding-left:35px;
+	
+}
+.seal{
+	padding-bottom:23px;
+	
+}
+.shopping-footer{
+	padding-top:18px;
+	padding-left:23px;
+}
+.img-sp-a{
+	position: relative;
+}
+.img-sp{
+	width:265px;
+	height:256px;
+}
+.hot{
+	position: absolute;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	color:#000;
+	background:#f0f;
+	left:-20px;
+	top:30px;
+	padding:15px 10px;
+}
+.img-featured{
+	padding-top:175px;
+}
+.featured-b{
+	padding-left:-15px;
+}
+.featured-a{
+	position:relative;
+	width:555px;
+	height: 540px;
+}
+.elip{
+	position:absolute;
+	width:240px;
+	height:240px;
+	border-radius:50%;
+	background:#f0f;
+	left: 160px;
+	top: 294px;
+	padding: 86px 90px;
+	
+}
+.price-a{
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	font-size:2.8rem;
+	color:#fff;
+}
+.price{
+	text-decoration: line-through;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	
+}
