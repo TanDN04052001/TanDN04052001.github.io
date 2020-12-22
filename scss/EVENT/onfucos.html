@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Input</title>
+	</head>
+	<body>
+		<h1>Focus</h1>
+		<form>
+			<input onfocus="this.value=''" id="input" onblur="setFocus()" value="abc"></input>
+		</form>
+		<h2>onmouseover & onmouseout</h2>
+		<a href="#" id="item" onmouseover="getMouseover()" onmouseout="setMouseout()">hhdddddddd</a>
+		<h3>Change</h3>
+		<select id="item1" onchange="getChange()">
+			<option value="Dấu Huyền">Dấu Huyền</option>
+			<option value="Dấu Sắc">Dấu Sắc </option>
+			<option value="hoi">Dấu Hỏi</option>
+			<option value="nga">Dấu Ngã</option>
+			<option value="nang">Dấu Nặng</option>
+		</select>
+		
+
+		
+		
+		
+		<form>
+			<input id="item2" onkeydown="getKeydown()"  placeholder="Huyền"></input>
+			<input id="meship" onkeyup="setKeyup()" placeholder="Dấu"></input>
+		</form>
+		
+			
+		
+		<h4 id="count">0</h4>
+		<form onsubmit="Submit()">
+			<textarea id="inputa" onkeyup="countWord()"></textarea><br>
+			<input type="submit" id="item3"></input>
+		</form>
+		
+		<script src="main.js"></script>
+	</body>
+
+</html>
