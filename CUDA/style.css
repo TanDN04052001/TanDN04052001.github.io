@@ -481,16 +481,18 @@ footer{
 }
 .footer-cener-top{
 	float:left;
-	width:48%;
+	width:40%;
 	border-radius:3px;
 	position:relative;
 	border:none;
 }
 .footer-center-bottom{
 	float:left;
-	width:48%;
-	border-radius:3px;
-	position:relative;
+	width: 56%;
+border-radius: 3px;
+position: relative;
+left: 478px;
+bottom: 50px;
 }
 .footer-bottom{
 	margin:30px 25px;
