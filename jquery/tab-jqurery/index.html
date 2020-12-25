@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang=vi>
+	<head>
+		<meta charset="utf-8" />
+		<title>Tab</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="tabs">
+			<ul id="tabs-nav">
+				<li class="nav-item">
+					<a class="tab" active" href="#tab1">Sản phẩm 1</a>
+				</li>
+				<li class="nav-item">
+					<a class="tab" href="#tab2">Sản Phẩm 2</a>
+				</li>
+				<li class="nav-item">
+					<a class="tab" href="#tab3">Sản Phẩm 3</a>
+				</li>
+			</ul>
+		</div>
+		<div class="tabs-content">
+			<div id="tab1" class="tab-content">
+				<h2>CBR1000RR 2021</h2>
+				<img src="img/cbr.jpg" class="img" alt="CBR1000RR">
+				<p>Vừa qua mẫu xe Superbike của hãng Honda CBR1000RR Fireblade <br>thuộc 1 trong 9 mẫu xe PKL đã đươc bán chính thức tại thị trường Việt Nam.<br> CBR1000RR FireBlade mới 2021 nhập khẩu trực tiếp từ thị trường Nhật Bản đã <br>được tinh chỉnh lại so với thế hệ trước với cấu trúc khung sườn nhẹ hơn,<br> động cơ và hệ thống điện tử nâng cấp đang khiến giới biker Việt Nam cảm thấy thích thú.</p>
+			</div>
+			<div id="tab2" class="tab-content">
+				<h2>BMW1000RR 2020</h2>
+				<img src="img/bmw.jpg" class="img" alt="BMW1000RR">
+				<p>BMW S1000RR 2021 sẽ được trang bị động cơ 4 xy lanh 999cc với 4 van titan trên<br> mỗi xy lanh để tạo ra tổng thể 16 van, mang tới công suất tối đa 207 mã lực tại 13500 vòng/phút và <br>mô-men xoắn cực đại là 113 Nm tại 11000 vòng/phút. Tốc độ tối đa có thể đạt được là 300km/h, và đương nhiên xe cũng sẽ có cải tiến để đạt chuẩn khí thải EURO 5 mới. </p>
+			</div>
+			<div id="tab3" class="tab-content">
+				<h2>Yamaha R1 2020</h2>
+				<img src="img/r1.jpg" class="img" alt="r1">
+				<p>Yamaha R1 được biết đến là trong những siêu mô tô bậc nhất suốt hơn 20 năm qua.<br> Ở phiên 2020, mẫu super-bike đã được nâng cấp mạnh mẽ . Đối thủ đủ sức để đấu với cá trê không nhiều.</p>
+			</div>
+		</div>
+	
+		<script src="jquery-3.5.1.min.js"></script>
+		<script>
+			$("#tabs-nav li:first-child").addClass('active'); <!--cách thêm class -->
+			$(".tab-content").hide(); <!-- ẩn -->
+			$(".tab-content:first").show();<!-- hiện-->
+			
+			$('#tabs-nav li').click(function(){
+				$('#tabs-nav li').removeClass('active');
+				$(this).addClass('active');
+				$('.tab-content').hide();
+				
+				var activeTab = $(this).find('a').attr('href');
+				$(activeTab).fadeIn();
+				
+			});
+		</script>
+	</body>
+</html>
